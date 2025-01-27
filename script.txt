@@ -1,0 +1,58 @@
+load resources/images/beach.jpg beach
+
+brighten 50 beach beach-brighten
+brighten -50 beach beach-darken
+horizontal-flip beach beach-horizontal
+vertical-flip beach beach-vertical
+red-component beach beach-red
+green-component beach beach-green
+blue-component beach beach-blue
+value-component beach beach-value
+luma-component beach beach-luma
+intensity-component beach beach-intensity
+greyscale beach beach-greyscale
+rgb-combine beach-combine beach-red beach-green beach-blue
+rgb-split beach beach-red beach-green beach-blue
+blur beach beach-blur
+sharpen beach beach-sharpen
+sepia beach beach-sepia
+compress 90 beach beach-90-compress
+histogram beach beach-histogram
+color-correct beach beach-corrected
+levels-adjust 100 128 150 beach beach-levels
+split-view sepia 50 beach beach-sepia-split
+downscale beach beach-downscale 100 100
+
+save resources/test_images/JPG/beach-brighten.jpg beach-brighten
+save resources/test_images/JPG/beach-darken.jpg beach-darken
+save resources/test_images/JPG/beach-horizontal.jpg beach-horizontal
+save resources/test_images/JPG/beach-vertical.jpg beach-vertical
+save resources/test_images/JPG/beach-red.jpg beach-red
+save resources/test_images/JPG/beach-green.jpg beach-green
+save resources/test_images/JPG/beach-blue.jpg beach-blue
+save resources/test_images/JPG/beach-value.jpg beach-value
+save resources/test_images/JPG/beach-luma.jpg beach-luma
+save resources/test_images/JPG/beach-intensity.jpg beach-intensity
+save resources/test_images/JPG/beach-greyscale.jpg beach-greyscale
+save resources/test_images/JPG/beach-combine.jpg beach-combine
+save resources/test_images/JPG/beach-blur.jpg beach-blur
+save resources/test_images/JPG/beach-sharpen.jpg beach-sharpen
+save resources/test_images/JPG/beach-sepia.jpg beach-sepia
+save resources/test_images/JPG/beach-90-compress.jpg beach-90-compress
+save resources/test_images/JPG/beach-histogram.jpg beach-histogram
+save resources/test_images/JPG/beach-corrected.jpg beach-corrected
+save resources/test_images/JPG/beach-levels.jpg beach-levels
+save resources/test_images/JPG/beach-sepia-split.jpg beach-sepia-split
+save resources/test_images/JPG/beach-downscale.jpg beach-downscale
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+RUNNING THE CODE:
+
+1. GUI Application:
+   Open the ImageGUI.java file under view package and run it. It should generate the GUI application where you can perform various image operations.
+   
+   i) Click on Load Image button, and select the edit that you need to work on.
+   ii) Select an image operation from the Select Operation drop down list.
+   iii) After selecting the desired operation, click on Execute. You should see the changes in the Image Preview Pane and its histogram in the Histogram Pane.
+   iv) After applying the desired operations, click on Save Image. Specify the desired location and give the image a name along with its type(jpg, png, ppm).
+
+2. JAR File: 
+   Right now the JAR file is present inside the resources folder, but while running it must moved to the root folder i.e. asgn6 and should be run from 
+   there. 
+   - java -jar .\asgn6.jar : To directly run the JAR file
+   - java -jar .\asgn6.jar .\src\script.txt : To load and run the script file
+   - java -jar .\asgn6.jar load .\resources\images\beach.jpg beach : To start the interactive mode, load the image first
+
+3. How to Test:
+   - To test the ImageController, run the ImageControllerTest.java JUnit4 test class.
+   - To test the ImageProcessor, run the Main.java class with the provided script.txt files so that the test images are generated and then run the                       ImageProcessorTest JUnit4 test class.
